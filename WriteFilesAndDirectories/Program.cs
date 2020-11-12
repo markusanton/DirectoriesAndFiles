@@ -19,6 +19,7 @@ namespace WriteFilesAndDirectories
             // Write to txt
             File.WriteAllLines(foldersTxt, includeNestedDirecotries);
             File.WriteAllLines(filesTxt, allFiles);
+            Console.WriteLine("Written!!");
         }
     }
 }
